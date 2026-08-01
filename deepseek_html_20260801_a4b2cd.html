@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>История и эволюция — BMW M3 &amp; Toyota BRZ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --soft-pink: #fce4ec;
+            --dusty-pink: #d8b4b4;
+            --sakura: #f7cacc;
+            --white: #ffffff;
+            --pastel-blush: #fdeff2;
+            --dark-rose: #a86f6f;
+            --shadow: rgba(200, 140, 140, 0.15);
+            --font-display: 'Pacifico', cursive;
+            --font-body: 'Quicksand', sans-serif;
+        }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: var(--font-body);
+            background: #fdf6f0;
+            color: #3d2b2b;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+        /* Пиксельные иконки */
+        .pixel-icon {
+            display: inline-block;
+            width: 48px;
+            height: 48px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            image-rendering: pixelated;
+            flex-shrink: 0;
+        }
+        .pixel-icon.sakura { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Crect x='16' y='8' width='4' height='4' fill='%23f5a3b0'/%3E%3Crect x='20' y='8' width='4' height='4' fill='%23f5a3b0'/%3E%3Crect x='24' y='8' width='4' height='4' fill='%23f5a3b0'/%3E%3Crect x='12' y='12' width='4' height='4' fill='%23f5a3b0'/%3E%3Crect x='16' y='12' width='4' height='4' fill='%23ffd1dc'/%3E%3Crect x='20' y='12' width='4' height='4' fill='%23ffd1dc'/%3E%3Crect x='24' y='12' width='4' height='4' fill='%23ffd1dc'/%3E%3Crect x='28' y='12' width='4' height='4' fill='%23f5a3b0'/%3E%3Crect x='8' y='16' width='4' height='4' fill='%23f5a3b0'/%3E%3Crect x='12' y='16' width='4' height='4' fill='%23ffd1dc'/%3E%3Crect x='16' y='16' width='4' height='4' fill='%23ffd1dc'/%3E%3Crect x='20' y='16' width='4' height='4' fill='%23ffd1dc'/%3E%3Crect x='24' y='16' width='4' height='4' fill='%23ffd1dc'/%3E%3Crect x='28' y='16' width='4' height='4' fill='%23ffd1dc'/%3E%3Crect x='32' y='16' width='4' height='4' fill='%23f5a3b0'/%3E%3Crect x='8' y='20' width='4' height='4' fill='%23f5a3b0'/%3E%3Crect x='12' y='20' width='4' height='4' fill='%23ffd1dc'/%3E%3Crect x='16' y='20' width='4' height='4' fill='%23ffd1dc'/%3E%3Crect x='20' y='20' width='4' height='4' fill='%23ffd1dc'/%3E%3Crect x='24' y='20' width='4' height='4' fill='%23ffd1dc'/%3E%3Crect x='28' y='20' width='4' height='4' fill='%23ffd1dc'/%3E%3Crect x='32' y='20' width='4' height='4' fill='%23f5a3b0'/%3E%3Crect x='8' y='24' width='4' height='4' fill='%23f5a3b0'/%3E%3Crect x='12' y='24' width='4' height='4' fill='%23ffd1dc'/%3E%3Crect x='16' y='24' width='4' height='4' fill='%23ffd1dc'/%3E%3Crect x='20' y='24' width='4' height='4' fill='%23ffd1dc'/%3E%3Crect x='24' y='24' width='4' height='4' fill='%23ffd1dc'/%3E%3Crect x='28' y='24' width='4' height='4' fill='%23ffd1dc'/%3E%3Crect x='32' y='24' width='4' height='4' fill='%23f5a3b0'/%3E%3Crect x='12' y='28' width='4' height='4' fill='%23f5a3b0'/%3E%3Crect x='16' y='28' width='4' height='4' fill='%23ffd1dc'/%3E%3Crect x='20' y='28' width='4' height='4' fill='%23ffd1dc'/%3E%3Crect x='24' y='28' width='4' height='4' fill='%23ffd1dc'/%3E%3Crect x='28' y='28' width='4' height='4' fill='%23f5a3b0'/%3E%3Crect x='16' y='32' width='4' height='4' fill='%23f5a3b0'/%3E%3Crect x='20' y='32' width='4' height='4' fill='%23f5a3b0'/%3E%3Crect x='24' y='32' width='4' height='4' fill='%23f5a3b0'/%3E%3C/svg%3E"); }
+        .pixel-icon.rose { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Crect x='16' y='8' width='4' height='4' fill='%23e87a8a'/%3E%3Crect x='20' y='8' width='4' height='4' fill='%23e87a8a'/%3E%3Crect x='24' y='8' width='4' height='4' fill='%23e87a8a'/%3E%3Crect x='12' y='12' width='4' height='4' fill='%23e87a8a'/%3E%3Crect x='16' y='12' width='4' height='4' fill='%23d45a6a'/%3E%3Crect x='20' y='12' width='4' height='4' fill='%23d45a6a'/%3E%3Crect x='24' y='12' width='4' height='4' fill='%23d45a6a'/%3E%3Crect x='28' y='12' width='4' height='4' fill='%23e87a8a'/%3E%3Crect x='8' y='16' width='4' height='4' fill='%23e87a8a'/%3E%3Crect x='12' y='16' width='4' height='4' fill='%23d45a6a'/%3E%3Crect x='16' y='16' width='4' height='4' fill='%23d45a6a'/%3E%3Crect x='20' y='16' width='4' height='4' fill='%23d45a6a'/%3E%3Crect x='24' y='16' width='4' height='4' fill='%23d45a6a'/%3E%3Crect x='28' y='16' width='4' height='4' fill='%23d45a6a'/%3E%3Crect x='32' y='16' width='4' height='4' fill='%23e87a8a'/%3E%3Crect x='8' y='20' width='4' height='4' fill='%23e87a8a'/%3E%3Crect x='12' y='20' width='4' height='4' fill='%23d45a6a'/%3E%3Crect x='16' y='20' width='4' height='4' fill='%23d45a6a'/%3E%3Crect x='20' y='20' width='4' height='4' fill='%23d45a6a'/%3E%3Crect x='24' y='20' width='4' height='4' fill='%23d45a6a'/%3E%3Crect x='28' y='20' width='4' height='4' fill='%23d45a6a'/%3E%3Crect x='32' y='20' width='4' height='4' fill='%23e87a8a'/%3E%3Crect x='12' y='24' width='4' height='4' fill='%23e87a8a'/%3E%3Crect x='16' y='24' width='4' height='4' fill='%23d45a6a'/%3E%3Crect x='20' y='24' width='4' height='4' fill='%23d45a6a'/%3E%3Crect x='24' y='24' width='4' height='4' fill='%23d45a6a'/%3E%3Crect x='28' y='24' width='4' height='4' fill='%23d45a6a'/%3E%3Crect x='32' y='24' width='4' height='4' fill='%23e87a8a'/%3E%3Crect x='16' y='28' width='4' height='4' fill='%23e87a8a'/%3E%3Crect x='20' y='28' width='4' height='4' fill='%23d45a6a'/%3E%3Crect x='24' y='28' width='4' height='4' fill='%23d45a6a'/%3E%3Crect x='28' y='28' width='4' height='4' fill='%23e87a8a'/%3E%3Crect x='20' y='32' width='4' height='4' fill='%23e87a8a'/%3E%3Crect x='24' y='32' width='4' height='4' fill='%23e87a8a'/%3E%3C/svg%3E"); }
+        .pixel-icon.cat {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 64 64'%3E%3Crect x='16' y='8' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='20' y='8' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='24' y='8' width='4' height='4' fill='%23b08080'/%3E%3Crect x='28' y='8' width='4' height='4' fill='%23b08080'/%3E%3Crect x='32' y='8' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='36' y='8' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='12' y='12' width='4' height='4' fill='%23b08080'/%3E%3Crect x='16' y='12' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='20' y='12' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='24' y='12' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='28' y='12' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='32' y='12' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='36' y='12' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='40' y='12' width='4' height='4' fill='%23b08080'/%3E%3Crect x='8' y='16' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='12' y='16' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='16' y='16' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='20' y='16' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='24' y='16' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='28' y='16' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='32' y='16' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='36' y='16' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='40' y='16' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='44' y='16' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='48' y='16' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='8' y='20' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='12' y='20' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='16' y='20' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='20' y='20' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='24' y='20' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='28' y='20' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='32' y='20' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='36' y='20' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='40' y='20' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='44' y='20' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='48' y='20' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='8' y='24' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='12' y='24' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='16' y='24' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='20' y='24' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='24' y='24' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='28' y='24' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='32' y='24' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='36' y='24' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='40' y='24' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='44' y='24' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='48' y='24' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='12' y='28' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='16' y='28' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='20' y='28' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='24' y='28' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='28' y='28' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='32' y='28' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='36' y='28' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='40' y='28' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='44' y='28' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='16' y='32' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='20' y='32' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='24' y='32' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='28' y='32' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='32' y='32' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='36' y='32' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='40' y='32' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='20' y='36' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='24' y='36' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='28' y='36' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='32' y='36' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='36' y='36' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='24' y='40' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='28' y='40' width='4' height='4' fill='%23d4a0a0'/%3E%3Crect x='32' y='40' width='4' height='4' fill='%23d4a0a0'/%3E%3C/svg%3E");
+            width: 64px;
+            height: 64px;
+        }
+        @keyframes float-cat {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-8px); }
+        }
+        .pixel-icon.cat { animation: float-cat 3s ease-in-out infinite; }
+        .fade-up {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+        .fade-up.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* ----- Хедер ----- */
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 0 16px;
+            border-bottom: 2px solid var(--dusty-pink);
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .logo-text {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            color: var(--dark-rose);
+            letter-spacing: 1px;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+            font-weight: 500;
+            color: #5a3e3e;
+            flex-wrap: wrap;
+        }
+        nav a {
+            text-decoration: none;
+            color: #5a3e3e;
+            font-size: 1rem;
+            position: relative;
+            transition: color 0.2s;
+            cursor: pointer;
+        }
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--sakura);
+            transition: width 0.3s;
+        }
+        nav a:hover { color: var(--dark-rose); }
+        nav a:hover::after { width: 100%; }
+
+        /* ----- Баннер ----- */
+        .hero {
+            position: relative;
+            margin: 30px 0 50px;
+            border-radius: 40px;
+            background: linear-gradient(145deg, #fce4ec, #f7cacc);
+            box-shadow: 0 16px 40px var(--shadow);
+            padding: 40px 36px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            overflow: hidden;
+        }
+        .clouds {
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            overflow: hidden;
+            border-radius: 40px;
+        }
+        .cloud {
+            position: absolute;
+            background: rgba(255,255,255,0.4);
+            border-radius: 1000px;
+            filter: blur(2px);
+            animation: cloudFloat 18s ease-in-out infinite alternate;
+        }
+        .cloud-1 { width: 200px; height: 60px; top: 20px; left: -30px; }
+        .cloud-2 { width: 280px; height: 70px; bottom: 30px; right: -20px; animation-duration: 22s; }
+        .cloud-3 { width: 160px; height: 45px; top: 120px; right: 80px; animation-duration: 14s; }
+        @keyframes cloudFloat {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(40px); }
+        }
+
+        .hero-content {
+            flex: 1 1 280px;
+            z-index: 2;
+        }
+        .hero-content h1 {
+            font-family: var(--font-display);
+            font-size: 3.4rem;
+            color: #6e4848;
+            line-height: 1.1;
+            text-shadow: 0 4px 12px rgba(200,140,140,0.15);
+        }
+        .hero-content p {
+            font-size: 1.1rem;
+            color: #5a3e3e;
+            max-width: 400px;
+            margin: 8px 0 24px;
+        }
+        .btn-primary {
+            display: inline-block;
+            background: var(--dusty-pink);
+            color: #fff;
+            padding: 12px 36px;
+            border-radius: 60px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            text-decoration: none;
+            box-shadow: 0 6px 18px rgba(200,140,140,0.3);
+            transition: background 0.25s, transform 0.2s;
+            border: none;
+            cursor: pointer;
+        }
+        .btn-primary:hover {
+            background: #c49a9a;
+            transform: scale(1.02);
+        }
+
+        .cars-composition {
+            flex: 1 1 260px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            z-index: 2;
+        }
+        .car-card {
+            background: rgba(255,255,255,0.35);
+            backdrop-filter: blur(2px);
+            border-radius: 28px;
+            padding: 16px 12px 12px;
+            box-shadow: 0 8px 24px rgba(200,140,140,0.1);
+            border: 1px solid rgba(255,255,255,0.5);
+            transition: transform 0.3s ease;
+            text-align: center;
+            width: 150px;
+        }
+        .car-card:hover { transform: translateY(-4px); }
+        .car-card svg { width: 100%; max-width: 140px; height: auto; display: block; margin: 0 auto; }
+        .car-label { font-weight: 600; color: #4d3333; margin-top: 6px; font-size: 0.9rem; }
+
+        .hero-cats {
+            position: absolute;
+            z-index: 3;
+            display: flex;
+            gap: 20px;
+            bottom: 10px;
+            right: 20px;
+        }
+        .hero-cats .pixel-icon.cat { animation-delay: 0.5s; width: 48px; height: 48px; }
+
+        /* ----- Общий стиль секций ----- */
+        .section {
+            margin: 60px 0 40px;
+            background: var(--white);
+            border-radius: 40px;
+            padding: 40px 32px;
+            box-shadow: 0 12px 28px var(--shadow);
+            border: 1px solid rgba(215,180,180,0.2);
+            position: relative;
+        }
+        .section-title {
+            font-family: var(--font-display);
+            font-size: 2.2rem;
+            color: #6e4848;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .section-title .pixel-icon { width: 40px; height: 40px; }
+        .section p { margin-bottom: 14px; color: #3d2b2b; }
+        .section ul, .section ol { margin: 12px 0 16px 24px; }
+        .section ul li, .section ol li { margin-bottom: 6px; }
+
+        .spec-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+            font-size: 0.95rem;
+        }
+        .spec-table th {
+            background: var(--soft-pink);
+            color: #4d3333;
+            padding: 12px 16px;
+            text-align: left;
+            font-weight: 600;
+        }
+        .spec-table td {
+            padding: 10px 16px;
+            border-bottom: 1px solid #f0e0e0;
+        }
+        .spec-table tr:nth-child(even) td {
+            background: #fdf8f6;
+        }
+
+        .compare-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin: 16px 0;
+        }
+        .compare-card {
+            background: #fdf8f6;
+            border-radius: 24px;
+            padding: 20px;
+            border: 1px solid #f0e0e0;
+        }
+        .compare-card h4 {
+            font-family: var(--font-display);
+            font-size: 1.6rem;
+            color: #6e4848;
+            margin-bottom: 10px;
+        }
+        .compare-card ul {
+            list-style: none;
+            padding: 0;
+        }
+        .compare-card ul li {
+            padding: 6px 0;
+            border-bottom: 1px solid #f0e0e0;
+            display: flex;
+            justify-content: space-between;
+        }
+        .compare-card ul li:last-child { border-bottom: none; }
+
+        /* ----- Цитаты для интервью ----- */
+        .quote-block {
+            background: var(--pastel-blush);
+            border-left: 4px solid var(--sakura);
+            padding: 16px 24px;
+            margin: 16px 0;
+            border-radius: 12px;
+            font-style: italic;
+            color: #4d3333;
+        }
+        .quote-block cite {
+            display: block;
+            margin-top: 8px;
+            font-style: normal;
+            font-weight: 600;
+            color: var(--dark-rose);
+        }
+
+        /* ----- Тесты ----- */
+        .test-question {
+            background: #fdf8f6;
+            border-radius: 20px;
+            padding: 20px;
+            margin: 16px 0;
+            border: 1px solid #f0e0e0;
+        }
+        .test-question h4 {
+            font-weight: 600;
+            color: #4d3333;
+            margin-bottom: 10px;
+        }
+        .test-question label {
+            display: block;
+            padding: 6px 0;
+            cursor: pointer;
+        }
+        .test-question input[type="radio"] {
+            margin-right: 10px;
+        }
+        #testResult, #testCarResult {
+            display: none;
+            margin-top: 20px;
+            padding: 20px;
+            background: var(--soft-pink);
+            border-radius: 20px;
+            text-align: center;
+            font-weight: 600;
+        }
+        #testResult.show, #testCarResult.show { display: block; }
+
+        /* ----- Аккордеоны ----- */
+        .accordion {
+            background: #fdf8f6;
+            border-radius: 20px;
+            margin: 16px 0;
+            border: 1px solid #f0e0e0;
+            overflow: hidden;
+        }
+        .accordion-header {
+            padding: 16px 20px;
+            background: var(--soft-pink);
+            cursor: pointer;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s;
+        }
+        .accordion-header:hover {
+            background: #f7d0d8;
+        }
+        .accordion-header .arrow {
+            transition: transform 0.3s;
+        }
+        .accordion-header.open .arrow {
+            transform: rotate(180deg);
+        }
+        .accordion-body {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.4s ease;
+            padding: 0 20px;
+            background: var(--white);
+        }
+        .accordion-body.open {
+            max-height: 800px;
+            padding: 20px;
+        }
+
+        /* ----- Хронология ----- */
+        .timeline-section {
+            background: var(--pastel-blush);
+            border-radius: 48px;
+            padding: 40px 28px 48px;
+            margin: 50px 0 40px;
+            box-shadow: 0 8px 28px var(--shadow);
+        }
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            max-width: 700px;
+            margin: 0 auto;
+            padding-left: 30px;
+            border-left: 4px solid var(--sakura);
+            position: relative;
+        }
+        .timeline-item {
+            background: rgba(255,255,255,0.7);
+            backdrop-filter: blur(2px);
+            border-radius: 24px;
+            padding: 16px 24px;
+            box-shadow: 0 4px 12px rgba(200,140,140,0.06);
+            border: 1px solid rgba(255,255,255,0.6);
+            transition: background 0.2s;
+            position: relative;
+        }
+        .timeline-item:hover { background: rgba(255,255,255,0.9); }
+        .timeline-item .year {
+            font-weight: 700;
+            font-size: 1.3rem;
+            color: var(--dark-rose);
+            margin-right: 12px;
+        }
+        .timeline-item .desc { color: #4d3333; }
+        .timeline .pixel-flower {
+            position: absolute;
+            left: -40px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 32px;
+            height: 32px;
+        }
+
+        /* ----- Футер ----- */
+        footer {
+            background: var(--sakura);
+            border-radius: 48px 48px 0 0;
+            padding: 32px 28px 28px;
+            margin-top: 40px;
+            text-align: center;
+            border-top: 2px solid rgba(255,255,255,0.3);
+        }
+        .footer-socials {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            font-size: 1.8rem;
+            margin-bottom: 14px;
+        }
+        .footer-socials a {
+            color: #6e4848;
+            text-decoration: none;
+            transition: transform 0.2s, color 0.2s;
+        }
+        .footer-socials a:hover { transform: scale(1.15); color: var(--dark-rose); }
+        .footer-deco {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            font-size: 1.2rem;
+            margin: 10px 0 6px;
+            opacity: 0.6;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        footer p { color: #5a3e3e; font-weight: 400; font-size: 0.95rem; }
+
+        @media (max-width: 768px) {
+            .hero { flex-direction: column; text-align: center; padding: 32px 20px; }
+            .hero-content h1 { font-size: 2.6rem; }
+            .hero-content p { max-width: 100%; }
+            .cars-composition { gap: 12px; }
+            .car-card { width: 130px; }
+            header { flex-direction: column; text-align: center; }
+            nav { justify-content: center; gap: 12px; }
+            .logo { justify-content: center; }
+            .hero-cats { position: relative; bottom: auto; right: auto; justify-content: center; margin-top: 10px; }
+            .section { padding: 24px 18px; }
+            .compare-grid { grid-template-columns: 1fr; }
+            .timeline { padding-left: 20px; }
+            .timeline .pixel-flower { left: -30px; width: 24px; height: 24px; }
+        }
+        @media (max-width: 480px) {
+            .car-card { width: 110px; padding: 10px; }
+            .hero-content h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- ====== ХЕДЕР ====== -->
+    <header>
+        <div class="logo">
+            <span class="pixel-icon cat" style="width:40px;height:40px;"></span>
+            <span class="logo-text">EvoDrive</span>
+        </div>
+        <nav>
+            <a href="#hero">Главная</a>
+            <a href="#specs">Характеристики</a>
+            <a href="#facts">Факты</a>
+            <a href="#history">История</a>
+            <a href="#tech">Техника</a>
+            <a href="#compare">Сравнение</a>
+            <a href="#interviews">Интервью</a>
+            <a href="#test">Тест КПП</a>
+            <a href="#testcar">Тест авто</a>
+            <a href="#lada">Почему Lada</a>
+            <a href="#instructor">Инструктор</a>
+            <a href="#timeline">Хронология</a>
+        </nav>
+    </header>
+
+    <!-- ====== БАННЕР ====== -->
+    <section class="hero fade-up" id="hero">
+        <div class="clouds">
+            <div class="cloud cloud-1"></div>
+            <div class="cloud cloud-2"></div>
+            <div class="cloud cloud-3"></div>
+        </div>
+        <div class="hero-content">
+            <h1>История и эволюция</h1>
+            <p>Две легенды — сквозь время и стиль. Открой для себя их путь.</p>
+            <a href="#specs" class="btn-primary">Изучить</a>
+        </div>
+        <div class="cars-composition">
+            <div class="car-card">
+                <svg viewBox="0 0 160 80" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="18" y="28" width="120" height="26" rx="8" fill="#c0c0c0" stroke="#9a9a9a" stroke-width="1.5" />
+                    <rect x="28" y="20" width="80" height="14" rx="6" fill="#d0d0d0" stroke="#b0b0b0" stroke-width="1.2" />
+                    <rect x="34" y="22" width="24" height="10" rx="3" fill="#a8d0e6" stroke="#8fb4cc" stroke-width="1" />
+                    <rect x="64" y="22" width="24" height="10" rx="3" fill="#a8d0e6" stroke="#8fb4cc" stroke-width="1" />
+                    <rect x="12" y="34" width="10" height="10" rx="4" fill="#fff8e0" stroke="#d4c8a0" stroke-width="1" />
+                    <rect x="136" y="34" width="10" height="10" rx="4" fill="#ffe0a0" stroke="#d4b080" stroke-width="1" />
+                    <circle cx="42" cy="60" r="14" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="2" />
+                    <circle cx="42" cy="60" r="6" fill="#888" />
+                    <circle cx="118" cy="60" r="14" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="2" />
+                    <circle cx="118" cy="60" r="6" fill="#888" />
+                    <circle cx="42" cy="60" r="3" fill="#ccc" />
+                    <circle cx="118" cy="60" r="3" fill="#ccc" />
+                    <rect x="110" y="18" width="18" height="6" rx="2" fill="#b0b0b0" stroke="#909090" stroke-width="1" />
+                </svg>
+                <div class="car-label">BMW M3</div>
+            </div>
+            <div class="car-card">
+                <svg viewBox="0 0 160 80" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="18" y="28" width="120" height="26" rx="8" fill="#f5f5f5" stroke="#d0d0d0" stroke-width="1.5" />
+                    <rect x="28" y="20" width="80" height="14" rx="6" fill="#fafafa" stroke="#dcdcdc" stroke-width="1.2" />
+                    <rect x="34" y="22" width="24" height="10" rx="3" fill="#b8d8e8" stroke="#99c0d4" stroke-width="1" />
+                    <rect x="64" y="22" width="24" height="10" rx="3" fill="#b8d8e8" stroke="#99c0d4" stroke-width="1" />
+                    <rect x="12" y="34" width="10" height="10" rx="4" fill="#fff8e0" stroke="#d4c8a0" stroke-width="1" />
+                    <rect x="136" y="34" width="10" height="10" rx="4" fill="#ffe0a0" stroke="#d4b080" stroke-width="1" />
+                    <circle cx="42" cy="60" r="14" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="2" />
+                    <circle cx="42" cy="60" r="6" fill="#aaa" />
+                    <circle cx="118" cy="60" r="14" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="2" />
+                    <circle cx="118" cy="60" r="6" fill="#aaa" />
+                    <circle cx="42" cy="60" r="3" fill="#ddd" />
+                    <circle cx="118" cy="60" r="3" fill="#ddd" />
+                    <rect x="110" y="18" width="18" height="6" rx="2" fill="#e0e0e0" stroke="#c0c0c0" stroke-width="1" />
+                </svg>
+                <div class="car-label">Toyota BRZ</div>
+            </div>
+        </div>
+        <div class="hero-cats">
+            <span class="pixel-icon cat"></span>
+            <span class="pixel-icon cat" style="animation-delay:1.2s;"></span>
+        </div>
+    </section>
+
+    <!-- ====== ХАРАКТЕРИСТИКИ ====== -->
+    <section class="section fade-up" id="specs">
+        <div class="section-title">
+            <span class="pixel-icon sakura"></span>
+            Характеристики
+        </div>
+        <p><strong>Сравнение технических параметров актуальных поколений BMW M3 (G80) и Toyota BRZ (второе поколение).</strong></p>
+        <table class="spec-table">
+            <thead>
+                <tr><th>Параметр</th><th>BMW M3 Competition xDrive</th><th>Toyota BRZ (2022+)</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Двигатель</td><td>3.0 л рядный 6‑цилиндровый турбо (S58)</td><td>2.4 л оппозитный 4‑цилиндровый (FA24)</td></tr>
+                <tr><td>Мощность, л.с.</td><td>510</td><td>235</td></tr>
+                <tr><td>Крутящий момент, Н·м</td><td>650</td><td>250</td></tr>
+                <tr><td>Разгон 0–100 км/ч, с</td><td>3.5 (с xDrive)</td><td>6.1</td></tr>
+                <tr><td>Максимальная скорость, км/ч</td><td>250 (ограничена)</td><td>230</td></tr>
+                <tr><td>Трансмиссия</td><td>8‑ступенчатый автомат M Steptronic</td><td>6‑ступенчатая механика / 6‑ступенчатый автомат</td></tr>
+                <tr><td>Привод</td><td>Полный (xDrive) с задним уклоном</td><td>Задний</td></tr>
+                <tr><td>Масса, кг</td><td>~1780</td><td>~1280</td></tr>
+                <tr><td>Расход топлива (смешанный), л/100 км</td><td>~10.5</td><td>~8.5</td></tr>
+            </tbody>
+        </table>
+        <p>BMW M3 — это мощный седан с выдающейся динамикой и технологиями, в то время как Toyota BRZ предлагает лёгкость, задний привод и идеальный баланс для удовольствия от вождения.</p>
+    </section>
+
+    <!-- ====== ИНТЕРЕСНЫЕ ФАКТЫ ====== -->
+    <section class="section fade-up" id="facts">
+        <div class="section-title">
+            <span class="pixel-icon rose"></span>
+            Интересные факты
+        </div>
+        <ul>
+            <li><strong>BMW M3:</strong> Первое поколение E30 (1986) оснащалось 4‑цилиндровым двигателем S14, а не рядной «шестёркой». Это был гоночный мотор, созданный на базе блока от BMW M10.</li>
+            <li><strong>BMW M3 E46 (2000):</strong> Получил первый в мире серийный двигатель с индивидуальными дроссельными заслонками для каждого цилиндра — это давало мгновенный отклик на газ.</li>
+            <li><strong>BMW M3 G80 (2020):</strong> Впервые в истории M3 появился полный привод (xDrive), что позволило улучшить разгон и управляемость на мокрой дороге.</li>
+            <li><strong>Toyota BRZ:</strong> Название расшифровывается как «Boxer engine, Rear-wheel drive, Zenith» — оппозитный двигатель, задний привод, вершина.</li>
+            <li><strong>Toyota BRZ:</strong> Разработан совместно с Subaru, поэтому имеет оппозитный двигатель Subaru и задний привод. В Японии продаётся как Subaru BRZ, в США — как Scion FR-S и Toyota 86.</li>
+            <li><strong>Toyota BRZ (второе поколение):</strong> Инженеры увеличили рабочий объём с 2.0 до 2.4 литра, но сохранили лёгкость и низкий центр тяжести, что сделало автомобиль ещё более драйверским.</li>
+        </ul>
+    </section>
+
+    <!-- ====== ИСТОРИЯ СОЗДАНИЯ ====== -->
+    <section class="section fade-up" id="history">
+        <div class="section-title">
+            <span class="pixel-icon sakura"></span>
+            История создания
+        </div>
+        <p><strong>BMW M3</strong> — это эволюция гоночного наследия. Первое поколение E30 (1986) создавалось специально для участия в чемпионате DTM. Инженеры BMW Motorsport взяли за основу кузов E30 и установили 2.3‑литровый двигатель S14, который выдавал 200 л.с. Модель мгновенно завоевала любовь автолюбителей и стала эталоном управляемости.</p>
+        <p>С каждым поколением M3 становился мощнее и технологичнее. E36 (1992) получил 3.0‑литровую рядную «шестёрку» и более просторный кузов. E46 (2000) — легендарный двигатель S54 с 343 л.с., который до сих пор считается одним из лучших атмосферных моторов в истории. E9x (2007) впервые использовал V8, а F80 (2014) вернулся к рядной «шестёрке» с турбонаддувом. Наконец, G80 (2020) получил турбомотор S58 и полный привод, став самым быстрым M3 за всю историю.</p>
+        <p><strong>Toyota BRZ</strong> появился в 2012 году как результат сотрудничества Toyota и Subaru. Главная цель — создать доступное заднеприводное купе с низким центром тяжести и идеальной развесовкой. Оппозитный двигатель Subaru позволил установить мотор максимально низко, что улучшило управляемость. Компактные размеры и лёгкость сделали BRZ фаворитом для дрифта и трек-дней.</p>
+        <p>В 2022 году вышло второе поколение с увеличенным до 2.4 литра мотором, но сохранившим все преимущества предшественника: лёгкость, задний привод и точное рулевое управление. BRZ стал ещё быстрее, но остался верен своей философии — дарить удовольствие от вождения.</p>
+    </section>
+
+    <!-- ====== ТЕХНИЧЕСКИЕ ДЕТАЛИ ====== -->
+    <section class="section fade-up" id="tech">
+        <div class="section-title">
+            <span class="pixel-icon rose"></span>
+            Технические детали
+        </div>
+        <p><strong>BMW M3 G80:</strong></p>
+        <ul>
+            <li><strong>Двигатель:</strong> 3.0 л рядная «шестёрка» S58 с двойным турбонаддувом, непосредственным впрыском и изменяемыми фазами газораспределения. Мощность — 510 л.с., пик крутящего момента достигается уже при 2750 об/мин.</li>
+            <li><strong>Подвеска:</strong> передняя — двойные поперечные рычаги, задняя — многорычажная. Адаптивные амортизаторы с электронным управлением жёсткости (EDC).</li>
+            <li><strong>Тормозная система:</strong> 6‑поршневые фиксированные суппорты спереди, 4‑поршневые сзади. Карбон-керамические диски — опционально.</li>
+            <li><strong>Аэродинамика:</strong> активный сплиттер спереди, диффузор и антикрыло сзади, воздухозаборники в переднем бампере для охлаждения тормозов и двигателя.</li>
+            <li><strong>Материалы:</strong> карбон-керамическая крыша, карданный вал из углепластика, алюминиевые двери и капот для снижения массы.</li>
+        </ul>
+        <p><strong>Toyota BRZ (2022):</strong></p>
+        <ul>
+            <li><strong>Двигатель:</strong> 2.4 л оппозитный 4‑цилиндровый FA24 с непосредственным впрыском, мощность 235 л.с., крутящий момент 250 Н·м.</li>
+            <li><strong>Подвеска:</strong> передняя — стойки МакФерсон, задняя — многорычажная. Жёсткость кузова увеличена на 50% по сравнению с первым поколением.</li>
+            <li><strong>Тормозная система:</strong> дисковые с вентиляцией, усиленные суппорты.</li>
+            <li><strong>Аэродинамика:</strong> низкая посадка, спойлер на крышке багажника, диффузор в заднем бампере.</li>
+            <li><strong>Материалы:</strong> алюминиевые капот, крылья и крышка багажника для снижения массы. В салоне — спортивные кресла с низкой посадкой.</li>
+        </ul>
+    </section>
+
+    <!-- ====== СРАВНЕНИЕ ПОКОЛЕНИЙ ====== -->
+    <section class="section fade-up" id="compare">
+        <div class="section-title">
+            <span class="pixel-icon sakura"></span>
+            Сравнение поколений
+        </div>
+        <p><strong>Эволюция BMW M3 по поколениям:</strong></p>
+        <div class="compare-grid">
+            <div class="compare-card">
+                <h4>E30 (1986–1991)</h4>
+                <ul>
+                    <li><span>Двигатель:</span> 2.3 л S14, 200 л.с.</li>
+                    <li><span>Разгон:</span> 6.7 с</li>
+                    <li><span>Масса:</span> ~1200 кг</li>
+                    <li><span>Привод:</span> задний</li>
+                </ul>
+            </div>
+            <div class="compare-card">
+                <h4>E36 (1992–1999)</h4>
+                <ul>
+                    <li><span>Двигатель:</span> 3.0–3.2 л, 286–321 л.с.</li>
+                    <li><span>Разгон:</span> 5.4 с</li>
+                    <li><span>Масса:</span> ~1460 кг</li>
+                    <li><span>Привод:</span> задний</li>
+                </ul>
+            </div>
+            <div class="compare-card">
+                <h4>E46 (2000–2006)</h4>
+                <ul>
+                    <li><span>Двигатель:</span> 3.2 л S54, 343 л.с.</li>
+                    <li><span>Разгон:</span> 4.8 с</li>
+                    <li><span>Масса:</span> ~1495 кг</li>
+                    <li><span>Привод:</span> задний</li>
+                </ul>
+            </div>
+            <div class="compare-card">
+                <h4>E9x (2007–2013)</h4>
+                <ul>
+                    <li><span>Двигатель:</span> 4.0 л V8, 420 л.с.</li>
+                    <li><span>Разгон:</span> 4.6 с</li>
+                    <li><span>Масса:</span> ~1580 кг</li>
+                    <li><span>Привод:</span> задний</li>
+                </ul>
+            </div>
+            <div class="compare-card">
+                <h4>F80 (2014–2019)</h4>
+                <ul>
+                    <li><span>Двигатель:</span> 3.0 л турбо, 431–450 л.с.</li>
+                    <li><span>Разгон:</span> 4.1 с</li>
+                    <li><span>Масса:</span> ~1520 кг</li>
+                    <li><span>Привод:</span> задний</li>
+                </ul>
+            </div>
+            <div class="compare-card">
+                <h4>G80 (2020–н.в.)</h4>
+                <ul>
+                    <li><span>Двигатель:</span> 3.0 л турбо S58, 510 л.с.</li>
+                    <li><span>Разгон:</span> 3.5 с (xDrive)</li>
+                    <li><span>Масса:</span> ~1780 кг</li>
+                    <li><span>Привод:</span> задний / полный</li>
+                </ul>
+            </div>
+        </div>
+        <p><strong>Toyota BRZ поколения:</strong></p>
+        <div class="compare-grid" style="grid-template-columns:1fr 1fr;">
+            <div class="compare-card">
+                <h4>Первое поколение (2012–2020)</h4>
+                <ul>
+                    <li><span>Двигатель:</span> 2.0 л оппозитный, 200 л.с.</li>
+                    <li><span>Разгон:</span> 7.6 с</li>
+                    <li><span>Масса:</span> ~1240 кг</li>
+                    <li><span>Привод:</span> задний</li>
+                </ul>
+            </div>
+            <div class="compare-card">
+                <h4>Второе поколение (2022–н.в.)</h4>
+                <ul>
+                    <li><span>Двигатель:</span> 2.4 л оппозитный, 235 л.с.</li>
+                    <li><span>Разгон:</span> 6.1 с</li>
+                    <li><span>Масса:</span> ~1280 кг</li>
+                    <li><span>Привод:</span> задний</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== ИНТЕРВЬЮ С СОЗДАТЕЛЯМИ ====== -->
+    <section class="section fade-up" id="interviews">
+        <div class="section-title">
+            <span class="pixel-icon sakura"></span>
+            Интервью с создателями
+        </div>
+        <h3 style="color:var(--dark-rose); font-family:var(--font-display);">BMW M3 — голоса инженеров</h3>
+        <div class="quote-block">
+            «Мы начали работу над дизайном нового M3 ещё в 1996 году, а концептуальная группа запустила процесс в 1997-м. Мы хотели сохранить ДНК M, но при этом сделать шаг вперёд в аэродинамике и эмоциональном восприятии.»
+            <cite>— Ulf Weidhase, глава дизайна BMW M (из интервью 2024 года)</cite>
+        </div>
+        <div class="quote-block">
+            «С каждым M-каром мы привносим гоночные технологии на дорогу. Баланс между производительностью и повседневной пригодностью — наш главный приоритет. M3 должен быть быстрым на треке, но при этом комфортным для ежедневных поездок.»
+            <cite>— Markus Flasch, бывший глава BMW M (из интервью 2020 года)</cite>
+        </div>
+        <div class="quote-block">
+            «Аэродинамика и охлаждение днища были значительно улучшены. Стандартный блокирующийся задний дифференциал получил огромные охлаждающие рёбра — он должен работать интенсивнее, поскольку теперь есть датчик дрифта, который мгновенно блокирует дифференциал. Это делает управляемый занос ещё более захватывающим.»
+            <cite>— Albert Biermann, вице-президент по инжинирингу M Division, о разработке M3/M4 (2014)</cite>
+        </div>
+        <div class="quote-block">
+            «Передний и задний (особенно задний) подрамники теперь крепятся прямо к кузову, без плотных резиновых втулок. Это прямая связь с миром автоспорта.»
+            <cite>— Albert Biermann, о жёсткости кузова новых M3/M4 (из интервью BMW BLOG, 2014)</cite>
+        </div>
+        <h3 style="color:var(--dark-rose); font-family:var(--font-display); margin-top:30px;">Toyota BRZ — история партнёрства</h3>
+        <p>Проект BRZ родился в сотрудничестве Toyota и Subaru. По данным Autocar, основная инженерная работа велась Subaru, а Toyota помогла с системой непосредственного впрыска D-4S. Изначально предполагалось, что BRZ будет мощнее FT-86 примерно в полтора раза — за счёт разных прошивок ЭБУ.</p>
+        <p>Subaru отвечала за настройку шасси и подвески, Toyota — за дизайн и систему впрыска. Результат — автомобиль с низким центром тяжести, идеальной развесовкой 53:47 и одним из лучших шасси в классе.</p>
+    </section>
+
+    <!-- ====== ТЕСТ: АВТОМАТ ИЛИ МЕХАНИКА? ====== -->
+    <section class="section fade-up" id="test">
+        <div class="section-title">
+            <span class="pixel-icon rose"></span>
+            Тест: автомат или механика?
+        </div>
+        <p>Ответьте на 6 вопросов, чтобы понять, какая коробка передач подходит именно вам.</p>
+        <div id="testContainer">
+            <div class="test-question" data-q="1">
+                <h4>1. Как часто вы стоите в пробках?</h4>
+                <label><input type="radio" name="q1" value="auto" /> Каждый день, в час пик</label>
+                <label><input type="radio" name="q1" value="manual" /> Редко, езжу по ночам или за городом</label>
+                <label><input type="radio" name="q1" value="neutral" /> Не имеет значения</label>
+            </div>
+            <div class="test-question" data-q="2">
+                <h4>2. Что для вас важнее всего в машине?</h4>
+                <label><input type="radio" name="q2" value="auto" /> Комфорт и плавность хода</label>
+                <label><input type="radio" name="q2" value="manual" /> Полный контроль и вовлечённость</label>
+                <label><input type="radio" name="q2" value="neutral" /> Скорость разгона</label>
+            </div>
+            <div class="test-question" data-q="3">
+                <h4>3. Как часто вы ездите по трассе на дальние расстояния?</h4>
+                <label><input type="radio" name="q3" value="auto" /> Часто, езжу в отпуск или в командировки</label>
+                <label><input type="radio" name="q3" value="manual" /> Редко, в основном по городу</label>
+                <label><input type="radio" name="q3" value="neutral" /> Иногда</label>
+            </div>
+            <div class="test-question" data-q="4">
+                <h4>4. Насколько вы опытный водитель?</h4>
+                <label><input type="radio" name="q4" value="manual" /> Я опытный, люблю спортивную езду</label>
+                <label><input type="radio" name="q4" value="auto" /> Я новичок или предпочитаю спокойный стиль</label>
+                <label><input type="radio" name="q4" value="neutral" /> У меня средний опыт</label>
+            </div>
+            <div class="test-question" data-q="5">
+                <h4>5. Ваше отношение к техническому обслуживанию?</h4>
+                <label><input type="radio" name="q5" value="auto" /> Хочу минимум забот и расходов</label>
+                <label><input type="radio" name="q5" value="manual" /> Готов тратить время на обслуживание и ремонт</label>
+                <label><input type="radio" name="q5" value="neutral" /> Мне всё равно</label>
+            </div>
+            <div class="test-question" data-q="6">
+                <h4>6. Что вы цените в машине больше всего?</h4>
+                <label><input type="radio" name="q6" value="manual" /> Азарт и драйв</label>
+                <label><input type="radio" name="q6" value="auto" /> Удобство и расслабление</label>
+                <label><input type="radio" name="q6" value="neutral" /> Экономичность</label>
+            </div>
+            <button id="testSubmit" class="btn-primary" style="margin-top:16px;">Узнать результат</button>
+            <div id="testResult"></div>
+        </div>
+    </section>
+
+    <!-- ====== НОВЫЙ ТЕСТ: КАКУЮ МАШИНУ ВЫБРАТЬ НОВИЧКУ В РОССИИ ====== -->
+    <section class="section fade-up" id="testcar">
+        <div class="section-title">
+            <span class="pixel-icon sakura"></span>
+            Тест: какую машину выбрать новичку в России?
+        </div>
+        <p>Ответьте на 6 вопросов о ваших условиях, бюджете и предпочтениях — и получите рекомендацию.</p>
+        <div id="testCarContainer">
+            <div class="test-question" data-qc="1">
+                <h4>1. Какой у вас бюджет (в рублях)?</h4>
+                <label><input type="radio" name="qc1" value="lada" /> до 500 000</label>
+                <label><input type="radio" name="qc1" value="budget" /> 500 000 – 1 000 000</label>
+                <label><input type="radio" name="qc1" value="mid" /> 1 000 000 – 2 000 000</label>
+                <label><input type="radio" name="qc1" value="premium" /> от 2 000 000</label>
+            </div>
+            <div class="test-question" data-qc="2">
+                <h4>2. Где вы планируете ездить чаще всего?</h4>
+                <label><input type="radio" name="qc2" value="city" /> Только город (асфальт, пробки)</label>
+                <label><input type="radio" name="qc2" value="mixed" /> Город и трасса</label>
+                <label><input type="radio" name="qc2" value="offroad" /> Плохие дороги, грунтовки, частые ямы</label>
+                <label><input type="radio" name="qc2" value="winter" /> Сильные морозы и снегопады (зима > 4 месяцев)</label>
+            </div>
+            <div class="test-question" data-qc="3">
+                <h4>3. Какой тип кузова вам больше по душе?</h4>
+                <label><input type="radio" name="qc3" value="sedan" /> Седан (классика)</label>
+                <label><input type="radio" name="qc3" value="hatchback" /> Хэтчбек (маневренный)</label>
+                <label><input type="radio" name="qc3" value="crossover" /> Кроссовер / внедорожник</label>
+                <label><input type="radio" name="qc3" value="any" /> Без разницы</label>
+            </div>
+            <div class="test-question" data-qc="4">
+                <h4>4. Что важнее для вас в машине?</h4>
+                <label><input type="radio" name="qc4" value="reliable" /> Надёжность и дешевизна обслуживания</label>
+                <label><input type="radio" name="qc4" value="comfort" /> Комфорт и безопасность</label>
+                <label><input type="radio" name="qc4" value="economy" /> Малый расход топлива</label>
+                <label><input type="radio" name="qc4" value="status" /> Престиж и внешний вид</label>
+            </div>
+            <div class="test-question" data-qc="5">
+                <h4>5. Нужен ли вам полный привод?</h4>
+                <label><input type="radio" name="qc5" value="yes" /> Да, зима и дороги плохие</label>
+                <label><input type="radio" name="qc5" value="no" /> Нет, передний привод достаточно</label>
+                <label><input type="radio" name="qc5" value="maybe" /> Затрудняюсь ответить</label>
+            </div>
+            <div class="test-question" data-qc="6">
+                <h4>6. Какой тип коробки передач вы предпочитаете?</h4>
+                <label><input type="radio" name="qc6" value="auto" /> Автомат (комфортно)</label>
+                <label><input type="radio" name="qc6" value="manual" /> Механика (экономно)</label>
+                <label><input type="radio" name="qc6" value="any" /> Всё равно</label>
+            </div>
+            <button id="testCarSubmit" class="btn-primary" style="margin-top:16px;">Рекомендовать авто</button>
+            <div id="testCarResult"></div>
+        </div>
+    </section>
+
+    <!-- ====== РАСКРЫВАЮЩИЙСЯ БЛОК: ПОЧЕМУ LADA ГОВНО ====== -->
+    <section class="section fade-up" id="lada">
+        <div class="section-title">
+            <span class="pixel-icon sakura"></span>
+            Почему Lada — полное говно?
+        </div>
+        <p><em>Осторожно: субъективное мнение, основанное на фактах и отзывах владельцев.</em></p>
+        <div class="accordion">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+                <span>▶ Нажмите, чтобы развернуть аргументы</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <p><strong>1. Устаревшие технологии.</strong> Большинство моделей Lada используют архаичные двигатели и трансмиссии, разработанные ещё в 70-х годах. Современные требования по экологии, эффективности и безопасности им недоступны.</p>
+                <p><strong>2. Низкое качество сборки.</strong> Заводской брак, плохие зазоры кузова, некачественная окраска — типичные проблемы даже для новых автомобилей. Владельцы жалуются на скрипы, люфты и коррозию уже в первые годы эксплуатации.</p>
+                <p><strong>3. Ненадёжность электроники.</strong> Проводка, датчики, блоки управления — всё это часто выходит из строя без видимых причин.</p>
+                <p><strong>4. Отсутствие безопасности.</strong> Краш-тесты Euro NCAP показывают, что Lada не выдерживает даже минимальных современных стандартов. В серьёзной аварии шансы выжить крайне малы.</p>
+                <p><strong>5. Проблемы с запчастями.</strong> Оригинальные детали дороги и дефицитны, а дешёвые аналоги быстро изнашиваются.</p>
+                <p><strong>6. Убогий интерьер.</strong> Дешёвый пластик, неудобные сиденья, плохая шумоизоляция — салон Lada ощущается как машина из прошлого века.</p>
+                <p><strong>7. Моторы «масложор».</strong> Двигатели Lada склонны к повышенному расходу масла и быстрому износу. Капитальный ремонт требуется уже к 150–200 тыс. км, тогда как современные японские и немецкие моторы ходят по 400–500 тыс.</p>
+                <p><strong>Итог:</strong> Lada — это автомобиль для тех, у кого нет денег на что-то лучшее, или для фанатов советского автопрома. Если у вас есть выбор — бегите от Lada подальше.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== НОВЫЙ БЛОК: ЧТО ДЕЛАТЬ, ЕСЛИ ИНСТРУКТОР ПО ВОЖДЕНИЮ — ГАНДОН ====== -->
+    <section class="section fade-up" id="instructor">
+        <div class="section-title">
+            <span class="pixel-icon rose"></span>
+            Что делать, если инструктор по вождению — гандон?
+        </div>
+        <p><em>Ситуации, когда инструктор хамит, унижает, спит на занятиях, берёт взятки или просто учит плохо — увы, не редкость. Вот пошаговый план действий.</em></p>
+
+        <div class="accordion">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+                <span>▶ Шаг 1. Не молчите — фиксируйте нарушения</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <ul>
+                    <li><strong>Ведите дневник</strong> — записывайте дату, время, что произошло (например, «инструктор спал 20 минут на занятии», «повысил голос без причины», «требовал деньги на бензин»).</li>
+                    <li><strong>Используйте диктофон</strong> (в РФ это разрешено для фиксации правонарушений, но предупредите инструктора — это его дисциплинирует).</li>
+                    <li><strong>Фотографируйте</strong> при необходимости (например, если он курит в машине с вами).</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+                <span>▶ Шаг 2. Требуйте замены инструктора</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <ul>
+                    <li><strong>Письменное заявление</strong> на имя директора автошколы с описанием конкретных фактов и просьбой заменить инструктора.</li>
+                    <li><strong>Ссылайтесь на договор</strong> — в большинстве школ есть пункт о праве ученика на замену.</li>
+                    <li>Если заменяют, но новый тоже плохой — повторяйте заявление, пока не добьётесь толкового специалиста.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+                <span>▶ Шаг 3. Жалоба в вышестоящие органы</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <ul>
+                    <li><strong>Отдел образования</strong> (если автошкола имеет лицензию — они контролируют качество обучения).</li>
+                    <li><strong>ГИБДД</strong> (в части нарушений правил проведения экзаменов, если инструктор влияет на них).</li>
+                    <li><strong>Роспотребнадзор</strong> — если вам навязывают платные допуслуги или обманывают.</li>
+                    <li><strong>Прокуратура</strong> — при грубых нарушениях закона (вымогательство, угрозы).</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+                <span>▶ Шаг 4. Соберите доказательства и подайте в суд (крайняя мера)</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <ul>
+                    <li>Если инструктор нанёс материальный ущерб (авария по его вине) или моральный вред, вы имеете право на компенсацию.</li>
+                    <li>Собирайте чеки, записи, показания свидетелей (другие ученики).</li>
+                    <li>Обратитесь к юристу, который специализируется на защите прав потребителей.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+                <span>▶ Шаг 5. Просто смените автошколу</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <ul>
+                    <li>Если вы потеряли доверие ко всей школе — требуйте возврат денег за неоказанные услуги.</li>
+                    <li>Ищите школу с хорошими отзывами, где инструкторы — профессионалы, а не случайные люди.</li>
+                    <li>Не бойтесь признать ошибку — лучше потерять деньги, чем нервы и время.</li>
+                </ul>
+            </div>
+        </div>
+        <p style="margin-top:16px;"><strong>Запомните:</strong> инструктор — это наёмный работник, а вы — клиент. Вы имеете право на уважение, качественное обучение и безопасность. Не терпите неуважения!</p>
+    </section>
+
+    <!-- ====== ХРОНОЛОГИЯ ====== -->
+    <section class="timeline-section fade-up" id="timeline">
+        <h2 class="section-title" style="text-align:center; margin-bottom:30px;">Хронология</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <span class="pixel-icon sakura pixel-flower"></span>
+                <span class="year">1986</span>
+                <span class="desc">BMW M3 E30 — рождение легенды. 2.3 л, 200 л.с.</span>
+            </div>
+            <div class="timeline-item">
+                <span class="pixel-icon rose pixel-flower"></span>
+                <span class="year">1992</span>
+                <span class="desc">BMW M3 E36 — 3.0 л, 286 л.с., новый уровень.</span>
+            </div>
+            <div class="timeline-item">
+                <span class="pixel-icon sakura pixel-flower"></span>
+                <span class="year">2000</span>
+                <span class="desc">BMW M3 E46 — 3.2 л, 343 л.с., шедевр.</span>
+            </div>
+            <div class="timeline-item">
+                <span class="pixel-icon rose pixel-flower"></span>
+                <span class="year">2007</span>
+                <span class="desc">BMW M3 E92 — 4.0 л V8, 420 л.с.</span>
+            </div>
+            <div class="timeline-item">
+                <span class="pixel-icon sakura pixel-flower"></span>
+                <span class="year">2012</span>
+                <span class="desc">Toyota BRZ — совместный проект с Subaru. Оптимальный баланс.</span>
+            </div>
+            <div class="timeline-item">
+                <span class="pixel-icon rose pixel-flower"></span>
+                <span class="year">2014</span>
+                <span class="desc">BMW M3 F80 — 3.0 л турбо, 431 л.с.</span>
+            </div>
+            <div class="timeline-item">
+                <span class="pixel-icon sakura pixel-flower"></span>
+                <span class="year">2020</span>
+                <span class="desc">BMW M3 G80 — турбо-рядная шестёрка, 510 л.с., полный привод.</span>
+            </div>
+            <div class="timeline-item">
+                <span class="pixel-icon rose pixel-flower"></span>
+                <span class="year">2022</span>
+                <span class="desc">Toyota BRZ второго поколения — 2.4 л, 235 л.с.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== ФУТЕР ====== -->
+    <footer class="fade-up" id="footer">
+        <div class="footer-socials">
+            <a href="#" aria-label="Instagram">📸</a>
+            <a href="#" aria-label="YouTube">▶️</a>
+            <a href="#" aria-label="Twitter">🐦</a>
+            <a href="#" aria-label="TikTok">🎵</a>
+        </div>
+        <div class="footer-deco">
+            <span>✦</span>
+            <span>❤️</span>
+            <span>✦</span>
+            <span class="pixel-icon sakura" style="width:24px;height:24px;"></span>
+            <span>✦</span>
+            <span>❤️</span>
+            <span>✦</span>
+        </div>
+        <p>© 2026 EvoDrive — нежный, волшебный, эстетичный веб-дизайн</p>
+    </footer>
+
+</div>
+
+<script>
+    (function() {
+        // Плавный скролл по якорям
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                const target = document.querySelector(targetId);
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Анимация появления
+        const fadeElements = document.querySelectorAll('.fade-up');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.15, rootMargin: '0px 0px -20px 0px' });
+        fadeElements.forEach(el => observer.observe(el));
+        const hero = document.getElementById('hero');
+        if (hero) {
+            const rect = hero.getBoundingClientRect();
+            if (rect.top < window.innerHeight) hero.classList.add('visible');
+        }
+
+        // Тест: автомат vs механика
+        document.getElementById('testSubmit').addEventListener('click', function() {
+            let autoCount = 0, manualCount = 0, neutralCount = 0;
+            for (let i = 1; i <= 6; i++) {
+                const selected = document.querySelector(`input[name="q${i}"]:checked`);
+                if (selected) {
+                    if (selected.value === 'auto') autoCount++;
+                    else if (selected.value === 'manual') manualCount++;
+                    else neutralCount++;
+                }
+            }
+            const total = autoCount + manualCount + neutralCount;
+            if (total < 6) {
+                alert('Ответьте на все вопросы!');
+                return;
+            }
+            let resultText = '';
+            if (autoCount >= 4) {
+                resultText = '🚗 Вам определённо нужен АВТОМАТ. Вы цените комфорт, не любите пробки и хотите минимум забот. Автомат — идеальный выбор для города и спокойной езды.';
+            } else if (manualCount >= 4) {
+                resultText = '🏁 Вам подходит МЕХАНИКА! Вы любите управлять процессом, получать удовольствие от вождения и не боитесь нагрузки. Механика дарит полный контроль и драйв.';
+            } else {
+                resultText = '⚖️ Вы — золотая середина. Можно рассмотреть и автомат, и механику. Обратите внимание на роботизированные коробки или вариаторы — они предлагают компромисс между комфортом и спортивностью.';
+            }
+            const resultDiv = document.getElementById('testResult');
+            resultDiv.textContent = resultText;
+            resultDiv.classList.add('show');
+        });
+
+        // Новый тест: какую машину выбрать новичку в России
+        document.getElementById('testCarSubmit').addEventListener('click', function() {
+            const answers = {};
+            for (let i = 1; i <= 6; i++) {
+                const selected = document.querySelector(`input[name="qc${i}"]:checked`);
+                if (!selected) {
+                    alert('Ответьте на все вопросы!');
+                    return;
+                }
+                answers[i] = selected.value;
+            }
+
+            let recommendation = '';
+            const budget = answers[1];
+            const region = answers[2];
+            const priority = answers[4];
+            const awd = answers[5];
+            const gear = answers[6];
+
+            if (budget === 'lada') {
+                if (region === 'city' || region === 'mixed') {
+                    recommendation = '🚗 Лада Гранта / Веста (новая) или подержанный Renault Logan. Дешево, просто, но без изысков. Для города сойдёт, но безопасность ниже среднего.';
+                } else {
+                    recommendation = '🚙 Подержанный Chevrolet Niva или УАЗ Патриот — для плохих дорог и зимы, но готовьтесь к частым ремонтам.';
+                }
+            } else if (budget === 'budget') {
+                if (region === 'city' || region === 'mixed') {
+                    if (priority === 'reliable') {
+                        recommendation = '🚘 Hyundai Solaris / Kia Rio (2015–2018) — надёжны, дёшевы в обслуживании, есть в автомате и механике.';
+                    } else if (priority === 'comfort') {
+                        recommendation = '🚗 Volkswagen Polo / Skoda Rapid — комфортнее, но запчасти дороже.';
+                    } else {
+                        recommendation = '🚘 Toyota Corolla (2008–2012) — легендарная надежность, но на вторичке дороже.';
+                    }
+                } else if (region === 'offroad' || region === 'winter') {
+                    recommendation = '🚙 Renault Duster / Lada Niva Travel — полный привод, клиренс, недорогой ремонт.';
+                } else {
+                    recommendation = '🚗 Toyota Camry (2010–2014) — надежный седан для трассы, но в городе великоват.';
+                }
+            } else if (budget === 'mid') {
+                if (awd === 'yes' || region === 'winter') {
+                    recommendation = '🚙 Toyota RAV4 / Hyundai Creta — полный привод, клиренс, надежны, популярны в России.';
+                } else {
+                    if (priority === 'economy') {
+                        recommendation = '🚗 Toyota Camry / Mazda 6 — экономичные бензиновые и дизельные версии, комфорт.';
+                    } else {
+                        recommendation = '🚘 Skoda Octavia / Kia K5 — удачный баланс цены, качества и оснащения.';
+                    }
+                }
+            } else {
+                if (awd === 'yes' || region === 'winter') {
+                    recommendation = '🚙 BMW X3 / Audi Q5 — премиальные кроссоверы с полным приводом.';
+                } else {
+                    if (priority === 'status') {
+                        recommendation = '🚗 BMW 3-й серии / Mercedes C-класса — статус и управляемость, но дорогое обслуживание.';
+                    } else {
+                        recommendation = '🚘 Lexus ES / Toyota Camry в максималке — надежный премиум.';
+                    }
+                }
+            }
+
+            if (gear === 'manual') {
+                recommendation += ' (механика — экономно, но в пробках утомляет).';
+            } else if (gear === 'auto') {
+                recommendation += ' (автомат — удобно, но дороже в обслуживании).';
+            }
+
+            const resultDiv = document.getElementById('testCarResult');
+            resultDiv.innerHTML = `<strong>${recommendation}</strong>`;
+            resultDiv.classList.add('show');
+        });
+
+        // Аккордеон для всех блоков
+        window.toggleAccordion = function(header) {
+            const body = header.nextElementSibling;
+            const isOpen = body.classList.contains('open');
+            const parentSection = header.closest('.section');
+            if (parentSection) {
+                parentSection.querySelectorAll('.accordion-body').forEach(el => el.classList.remove('open'));
+                parentSection.querySelectorAll('.accordion-header').forEach(el => el.classList.remove('open'));
+            } else {
+                document.querySelectorAll('.accordion-body').forEach(el => el.classList.remove('open'));
+                document.querySelectorAll('.accordion-header').forEach(el => el.classList.remove('open'));
+            }
+            if (!isOpen) {
+                body.classList.add('open');
+                header.classList.add('open');
+            }
+        };
+    })();
+</script>
+
+</body>
+</html>
